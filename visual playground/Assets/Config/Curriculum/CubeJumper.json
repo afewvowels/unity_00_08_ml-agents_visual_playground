@@ -1,0 +1,12 @@
+{
+    "measure" : "reward",
+    "thresholds" : [0.6, 0.6, 0.7, 0.8, 0.8],
+    "min_lesson_length" : 100,
+    "signal_smoothing" : true,
+    "parameters" :
+    {
+        "wall_min_height" : [0.0, 4.0, 6.0, 6.0, 8.0, 11.0],
+        "wall_max_height" : [2.0, 7.0, 8.0, 8.0, 11.0, 11.0],
+        "platform_near_wall" : [0.0, 0.0, 0.0, 0.0, 1.0, 1.0]
+    }
+}
